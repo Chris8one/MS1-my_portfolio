@@ -10,11 +10,19 @@ body {
     color: white;
 }
 
-.row-bg {
-    background-color: red;
+.text-orange {
+    color: #dd780b;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /****** Styles ******/
+
+html {
+    scroll-behavior: smooth;
+}
 
 #hero-text {
     padding-top: 25vh;
@@ -24,15 +32,25 @@ body {
 }
 
 .heading {
-    font-family: "Exo", sans-serif;
-    /* padding-top: 60px; */
+    font-family: "Dosis", sans-serif;
+    padding-top: 60px;
     padding-left: 5vw;
-    font-weight: 400;
+    font-weight: 500;
+}
+
+.navtext {
+    font-family: "Exo", sans-serif;
+    font-size: 1.4em;
+}
+
+.navlinktext {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.2em;
 }
 
 #home p {
     font-family: "Dosis", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     text-transform: uppercase;
     font-size: 2em;
     margin-bottom: 0;
@@ -42,8 +60,41 @@ body {
 #home span {
     font-family: "Exo", sans-serif;
     font-size: 5em;
-    font-weight: 100;
+    font-weight: 200;
     text-shadow: 2px 2px 3px;
+}
+
+.card-body h5 {
+    font-family: "Dosis", sans-serif;
+}
+
+.card-body p {
+    font-family: "Exo", sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+/****** Navbar ******/
+
+.diamond {
+    font-weight: 500;
 }
 
 /****** Home ******/
@@ -57,27 +108,14 @@ body {
     position: static;
     height: 100vh;
     width: 100%;
-    margin-top: -55px;
+    margin-top: -60px;
 }
+
 
 /****** About ******/
 
 /* Background for the About-section */
 #about {
-    background-image: url("/assets/images/backgr.jpg");
-    background-position: center;
-    background-size: cover;
-    position: static;
-    height: 100vh;
-    width: 100%;
-    column-count: 2;
-}
-
-/****** Portfolio ******/
-
-/* Background for the Portfolio-section */
-#portfolio {
-    background-attachment: fixed;
     background-image: url("/assets/images/portfolio.jpg");
     background-position: center;
     background-size: cover;
@@ -86,16 +124,78 @@ body {
     width: 100%;
 }
 
-/****** Skills ******/
+#about-pic img {
+    height: 60vh;
+    margin: 62px 5vw 62px 0;
+}
 
-/* Background for the Skills-section */
-#skills {
+#about p {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    margin: 62px 0 62px 5vw;
+}
+
+/****** Portfolio ******/
+
+/* Background for the Portfolio-section */
+#portfolio {
+    background-attachment: fixed;
     background-image: url("/assets/images/backgr2.jpg");
     background-position: center;
     background-size: cover;
     position: static;
     height: 100vh;
     width: 100%;
+}
+
+#portfolio .card {
+    margin-top: 62px;
+}
+
+/****** Skills ******/
+
+/* Background for the Skills-section */
+#skills {
+    background-image: url("/assets/images/backgr.jpg");
+    background-position: center;
+    background-size: cover;
+    position: static;
+    height: 100vh;
+    width: 100%;
+}
+
+.progress {
+    position: relative;
+    width: 50%;
+    height: 25px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.progress-section p {
+    font-family: "Exo", sans-serif;
+}
+
+.progress-section span {
+    font-family: "Exo", sans-serif;
+}
+
+#skills .col {
+    width: 50%;
+    margin: 62px 10vw 0 5vw;
 }
 
 /****** Contact ******/
@@ -111,6 +211,44 @@ body {
     width: 100%;
 }
 
-.navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+#contact .col-sm-6 {
+    margin: 90px 10vw 0 5vw;
+}
+
+.fa-mobile {
+    font-size: 20px;
+}
+
+/****** Social Media Links ******/
+.social-media-links a {
+    color: #dd780b;
+}
+
+.social-media-links {
+  top: 83%;
+  left: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  z-index: 100;
+  /* text-shadow: 2px 2px 4px black; */
+}
+
+.social-media-links ul {
+  padding: initial;
+  font-size: 140%;
+}
+
+.social-media-links ul li {
+  height: 35px;
+  width: 40px;
+  list-style-type: none;
+  padding-left: 9px;
+  margin-top: 2px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.social-media-links ul li:hover {
+  padding-left: 30px;
+  width: 60px;
+  transition: 0.5s;
 }

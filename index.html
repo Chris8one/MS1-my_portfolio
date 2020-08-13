@@ -17,12 +17,12 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-		<a class="navbar-brand text-white" href="#home">Chris Granbäck</a>
+		<a class="navbar-brand navtext text-white" href="#home"><i class="fa fa-diamond diamond text-orange" aria-hidden="true"></i> Chris of Sweden_</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 		<div class="collapse navbar-collapse justify-content-end text-right" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
+			<div class="navbar-nav navlinktext">
 				<a class="nav-item nav-link text-white" href="#about">About</a>
 				<a class="nav-item nav-link text-white" href="#portfolio">Portfolio</a>
 				<a class="nav-item nav-link text-white" href="#skills">Skills</a>
@@ -40,30 +40,132 @@
         </div>
     </div>
     <div class="container-fluid" id="about">
+        <h2 class="heading row-bg text-left">About_</h2>
         <div class="row">
-            <div class="col-12 px-0 py-0">
-                <h2 class="heading row-bg text-left">About_</h2>
+            <div class="col-6">
+                <p>With a background from everything between carpentring to tattooing, to truck driver.<br>
+                I decided to change my career completly and went for software development<br>
+                since I have been interested in programming since the 90's.
+                <br>
+                <br>
+                I study at Code Institute in Dublin, Ireland in their full stack software development course.</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-6"></div>
+            <div class="col-6" id="about-pic">
+                <div class="row justify-content-end">
+                    <img src="assets/images/chris.jpg">
+                </div>
+            </div>
         </div>
     </div>
     <div class="container-fluid" id="portfolio">
+    <h2 class="heading row-bg text-left">Portfolio_</h2>
         <div class="row">
-            <div class="col"></div>
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/my_portfolio.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio site</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go To Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/whac-a-hacker.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Whac-A-Hacker</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://chris8one.github.io/MS2-project/" target="_blank" class="btn btn-primary">Go To Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/note_page.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Note Page</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="http://notepage8one.herokuapp.com/" target="_blank" class="btn btn-primary">Go To Site</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container-fluid" id="skills">
-        <div class="row">
-            <div class="col"></div>
+    <h2 class="heading row-bg text-left">Skills_</h2>
+        <div class="row mt-5 progress-section">
+            <div class="col">
+                <p>My skill levels in the programming languages I know:</p>
+                <div class="progress" style="height:23px; border-radius: 0; background-color: #696969;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 90%; background-color:#dd780b !important;" >
+                        <span class="sr-only">90% complete</span>
+                    </div>
+                    <span class="progress-type">HTML5</span>
+                </div>
+                <div class="progress" style="height:23px; border-radius: 0; background-color: #696969;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="is 80"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color:#dd780b !important;">
+                        <span class="sr-only">80% complete</span>
+                    </div>
+                    <span class="progress-type">CSS3</span>
+                </div>
+                <div class="progress" style="height:23px; border-radius: 0; background-color: #696969;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 65%; background-color:#dd780b !important;">
+                        <span class="sr-only">65% complete</span>
+                    </div>
+                    <span class="progress-type">JavaScript</span>
+                </div>
+                <div class="progress" style="height:23px; border-radius: 0; background-color: #696969;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%; background-color:#dd780b !important;">
+                        <span class="sr-only">70% complete</span>
+                    </div>
+                    <span class="progress-type">Python 3</span>
+                </div>
+                <div class="progress" style="height:23px; border-radius: 0; background-color: #696969;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 60%; background-color:#dd780b !important;">
+                        <span class="sr-only">60% complete</span>
+                    </div>
+                    <span class="progress-type">SQL / NoSQL</span>
+                </div>
+                <div class="progress" style="height:23px; border-radius: 0; background-color: #696969;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 65%; background-color:#dd780b !important;">
+                        <span class="sr-only">65% complete</span>
+                    </div>
+                    <span class="progress-type">MongoDB</span>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container-fluid" id="contact">
+    <h2 class="heading row-bg text-left">Contact_</h2>
         <div class="row">
-            <div class="col"></div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">To contact me:</h5>
+                        <br>
+                        <p class="card-text"><i class="fa fa-mobile" aria-hidden="true"></i> Phone: (+46) 070-1234567</p>
+                        <p class="card-text"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email: <a href="crille_granback@hotmail.com">crille_granback@hotmail.com</a></p>
+                        <p class="card-text">Or via the social media links</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+<div class="social-media-links">
+          <ul>
+            <a href="https://www.instagram.com/chrisgranback" target="_blank"><li class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
+            <a href="https://www.facebook.com/chris8one" target="_blank"><li class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+            <a href="https://www.twitter.com/chris8one" target="_blank"><li class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></li></a>
+            <a href="https://www.snapchat.com/add/chris8one" target="_blank"><li class="snapchat"><i class="fa fa-snapchat-square" aria-hidden="true"></i></li></a>
+          </ul>
+        </div>
 </body>
-
+<footer></footer>
 </html>

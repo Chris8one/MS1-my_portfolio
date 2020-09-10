@@ -91,6 +91,19 @@ a:hover {
 a:active {
   color: black;
 }
+
+.copyright {
+    font-size: 10px;
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.card-body {
+    padding-bottom: 0px;
+    padding-right: 5px;
+}
+
 /****** Navbar ******/
 
 .diamond {
@@ -125,7 +138,8 @@ a:active {
 }
 
 #about-pic img {
-    height: 60vh;
+    /* height: 60vh; */
+    width: 70%;
     margin: 62px 5vw 62px 0;
 }
 
@@ -230,7 +244,6 @@ a:active {
   transform: translateY(-50%);
   position: fixed;
   z-index: 100;
-  /* text-shadow: 2px 2px 4px black; */
 }
 
 .social-media-links ul {
@@ -251,4 +264,70 @@ a:active {
   padding-left: 30px;
   width: 60px;
   transition: 0.5s;
+}
+
+/****** Media Queries ******/
+
+/* Landscape tablets and medium desktops */
+/* @media (min-width: 992px) and (max-width: 1199px) {
+
+    #home {
+    background-attachment: fixed;
+    background-image: none;
+    background-position: bottom;
+    background-size: cover;
+    position: static;
+    height: 100%;
+    width: 100%;
+    margin-top: -60px;
+    }
+
+} */
+
+/* Portrait tablets and small desktops */
+/* @media (min-width: 768px) and (max-width: 991px) {
+
+    #home {
+    background-attachment: fixed;
+    background-image: none;
+    background-position: bottom;
+    background-size: cover;
+    position: static;
+    height: 100%;
+    width: 100%;
+    margin-top: -60px;
+    }
+
+} */
+
+/* Landscape phones and portrait tablets */
+/* @media (max-width: 767px) {
+
+    #home {
+    background-attachment: fixed;
+    background-image: none;
+    background-position: bottom;
+    background-size: cover;
+    position: static;
+    height: 100%;
+    width: 100%;
+    margin-top: -60px;
+    }
+
+} */
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    #home {
+    background-attachment: fixed;
+    background-image: none;
+    background-position: bottom;
+    background-size: cover;
+    position: static;
+    height: 100vh;
+    width: 100%;
+    margin-top: -60px;
+    }
+
 }

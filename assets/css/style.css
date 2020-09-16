@@ -1,79 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700");
 
 /****** Colors ******/
 
 body {
-    background: transparent;
+  background: transparent;
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .text-orange {
-    color: #dd780b;
+  color: #dd780b;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 /****** Styles ******/
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #hero-text {
-    padding-top: 25vh;
-    margin-left: 5vw;
-    position: relative;
-    z-index: 2;
+  padding-top: 25vh;
+  margin-left: 5vw;
+  position: relative;
+  z-index: 2;
 }
 
 .heading {
-    font-family: "Dosis", sans-serif;
-    padding-top: 60px;
-    padding-left: 5vw;
-    font-weight: 500;
+  font-family: "Dosis", sans-serif;
+  padding-top: 60px;
+  padding-left: 5vw;
+  font-weight: 500;
 }
 
 .navtext {
-    font-family: "Exo", sans-serif;
-    font-size: 1.4em;
+  font-family: "Exo", sans-serif;
+  font-size: 1.4em;
 }
 
 .navlinktext {
-    font-family: "Dosis", sans-serif;
-    font-size: 1.2em;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.2em;
 }
 
 #home p {
-    font-family: "Dosis", sans-serif;
-    font-weight: 200;
-    text-transform: uppercase;
-    font-size: 2em;
-    margin-bottom: 0;
-    text-shadow: 1px 1px 2px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 2px;
 }
 
 #home span {
-    font-family: "Exo", sans-serif;
-    font-size: 5em;
-    font-weight: 200;
-    text-shadow: 2px 2px 3px;
+  font-family: "Exo", sans-serif;
+  font-size: 5em;
+  font-weight: 200;
+  text-shadow: 2px 2px 3px;
 }
 
 .card-body h5 {
-    font-family: "Dosis", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 .card-body p {
-    font-family: "Exo", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 a:link {
@@ -93,149 +93,147 @@ a:active {
 }
 
 .copyright {
-    font-size: 10px;
-    text-align: right;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  font-size: 10px;
+  text-align: right;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .card-body {
-    padding-bottom: 0px;
-    padding-right: 5px;
+  padding-bottom: 0px;
+  padding-right: 5px;
 }
 
 /****** Navbar ******/
 
 .diamond {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 /****** Home ******/
 
 /* Background for the Home-section */
 #home {
-    background-attachment: fixed;
-    background-image: url("/assets/images/hero.jpg");
-    background-position: bottom;
-    background-size: cover;
-    position: static;
-    height: 100vh;
-    width: 100%;
-    margin-top: -60px;
+  background-attachment: fixed;
+  background-image: url("../images/hero.jpg");
+  background-position: bottom;
+  background-size: cover;
+  position: static;
+  height: 100vh;
+  width: 100%;
+  margin-top: -60px;
 }
-
 
 /****** About ******/
 
 /* Background for the About-section */
 #about {
-    background-image: url("/assets/images/portfolio.jpg");
-    background-position: center;
-    background-size: cover;
-    position: static;
-    height: 100vh;
-    width: 100%;
+  background-image: url("../images/portfolio.jpg");
+  background-position: center;
+  background-size: cover;
+  position: static;
+  height: 100vh;
+  width: 100%;
 }
 
 #about-pic img {
-    /* height: 60vh; */
-    width: 70%;
-    margin: 62px 5vw 62px 0;
+  width: 70%;
+  margin: 62px 5vw 62px 0;
 }
 
 #about p {
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
-    margin: 62px 0 62px 5vw;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  margin: 62px 0 62px 5vw;
 }
 
 /****** Portfolio ******/
 
 /* Background for the Portfolio-section */
 #portfolio {
-    background-attachment: fixed;
-    background-image: url("/assets/images/backgr2.jpg");
-    background-position: center;
-    background-size: cover;
-    position: static;
-    height: 100vh;
-    width: 100%;
+  background-attachment: fixed;
+  background-image: url("../images/backgr2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: static;
+  height: 100vh;
+  width: 100%;
 }
 
 #portfolio .card {
-    margin-top: 62px;
+  margin-top: 62px;
 }
 
 /****** Skills ******/
 
 /* Background for the Skills-section */
 #skills {
-    background-image: url("/assets/images/backgr.jpg");
-    background-position: center;
-    background-size: cover;
-    position: static;
-    height: 100vh;
-    width: 100%;
+  background-image: url("../images/backgr.jpg");
+  background-position: center;
+  background-size: cover;
+  position: static;
+  height: 100vh;
+  width: 100%;
 }
 
 .progress {
-    position: relative;
-    width: 50%;
-    height: 25px;
-    line-height: 1.5;
-    margin-bottom: 4px;
+  position: relative;
+  width: 50%;
+  height: 25px;
+  line-height: 1.5;
+  margin-bottom: 4px;
 }
 
 .progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
+  position: absolute;
+  left: 0px;
+  font-weight: 400;
+  padding: 3px 30px 2px 10px;
+  color: #fafafa;
+  background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
-    margin: 40px 20px;
+  margin: 40px 20px;
 }
 
 .progress-section p {
-    font-family: "Exo", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 .progress-section span {
-    font-family: "Exo", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 #skills .col {
-    width: 50%;
-    margin: 62px 10vw 0 5vw;
+  width: 50%;
+  margin: 62px 10vw 0 5vw;
 }
 
 /****** Contact ******/
 
 /* Background for the Contact-section */
 #contact {
-    background-attachment: fixed;
-    background-image: url("/assets/images/contact.jpg");
-    background-position: center;
-    background-size: cover;
-    position: static;
-    height: 100vh;
-    width: 100%;
+  background-attachment: fixed;
+  background-image: url("../images/contact.jpg");
+  background-position: center;
+  background-size: cover;
+  position: static;
+  height: 100vh;
+  width: 100%;
 }
 
 #contact .col-sm-6 {
-    margin: 90px 10vw 0 5vw;
+  margin: 90px 10vw 0 5vw;
 }
 
 .fa-mobile {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /****** Social Media Links ******/
 .social-media-links a {
-    color: #dd780b;
+  color: #dd780b;
 }
 
 .social-media-links {
@@ -266,68 +264,72 @@ a:active {
   transition: 0.5s;
 }
 
+.social-media-links-small {
+  visibility: hidden;
+  font-size: 20px;
+}
+
 /****** Media Queries ******/
 
 /* Landscape tablets and medium desktops */
-/* @media (min-width: 992px) and (max-width: 1199px) {
-
-    #home {
-    background-attachment: fixed;
-    background-image: none;
-    background-position: bottom;
-    background-size: cover;
-    position: static;
-    height: 100%;
-    width: 100%;
-    margin-top: -60px;
-    }
-
-} */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .social-media-links-small {
+    visibility: hidden;
+  }
+}
 
 /* Portrait tablets and small desktops */
-/* @media (min-width: 768px) and (max-width: 991px) {
-
-    #home {
-    background-attachment: fixed;
-    background-image: none;
-    background-position: bottom;
-    background-size: cover;
-    position: static;
-    height: 100%;
-    width: 100%;
-    margin-top: -60px;
-    }
-
-} */
+@media (min-width: 768px) and (max-width: 991px) {
+  .social-media-links-small {
+    visibility: hidden;
+  }
+}
 
 /* Landscape phones and portrait tablets */
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
+  .social-media-links {
+    visibility: hidden;
+  }
 
-    #home {
-    background-attachment: fixed;
-    background-image: none;
-    background-position: bottom;
-    background-size: cover;
-    position: static;
-    height: 100%;
-    width: 100%;
-    margin-top: -60px;
-    }
-
-} */
+  .social-media-links-small {
+    visibility: visible;
+  }
+}
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+  #home p {
+    font-size: 1em;
+  }
 
-    #home {
-    background-attachment: fixed;
-    background-image: none;
-    background-position: bottom;
-    background-size: cover;
-    position: static;
-    height: 100vh;
+  #home span {
+    font-size: 3em;
+  }
+
+  #about,
+  #portfolio,
+  #skills {
+    height: 100%;
+  }
+
+  #about-pic img {
+    width: 70%;
+    margin: 0;
+  }
+
+  .progress-section {
+    margin: 0px 20px;
+  }
+
+  .progress {
     width: 100%;
-    margin-top: -60px;
-    }
+  }
 
+  .social-media-links {
+    visibility: hidden;
+  }
+
+  .social-media-links-small {
+    visibility: visible;
+  }
 }

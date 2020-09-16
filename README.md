@@ -1,39 +1,146 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Chris Granbäck (Chris of Sweden) Portfolio/Resume Website
 
-Welcome Christer Granbäck,
+This project shows a little about myself.
+What skills do I know and what to expect from me.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+This website is for employers looking to hire, for people or companies who wants to build a website for a certain thing.
+Or maybe just for curious people who wants to see my projects.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+As a user I want to:
 
-`python3 -m http.server`
+- Navigate easy.
+- Know who this website is about.
+- What skills does this person have.
+- Be able to contact the person.
 
-A blue button should appear to click: *Make Public*,
+As an owner I want to:
 
-Another blue button should appear to click: *Open Browser*.
+- The visitor to easily navigate to the right information.
+- Contact me.
+- Know what to expect if they choose to hire me.
+- Revisit my website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: *Make Public*,
+### Existing Features
 
-Another blue button should appear to click: *Open Browser*.
+#### The navigation bar
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- Easy to see and understand, becomes collapsible on smaller screens.
+- Contains links to every section of the site and a link to my CV.
 
-## Updates Since The Instructional Video
+#### The About\_ section
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+- Here you can read some info about who I am.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### The Portfolio\_ section
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Displays my projects.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### The Skills\_ section
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Shows my technical skills and level on each.
 
---------
+#### The Contact\_ section
 
-Happy coding!
+- Some various ways to get in touch with me.
+- On smallers screens the social media links appear in this section.
+
+#### The Social Links
+
+- A floating section with social media links.
+- Hides on smaller screens and becomes visible in the contact section instead.
+
+### Features Left to Implement
+
+- Add some more interaction and more smooth color scheme.
+
+## Technologies Used
+
+#### HTML5
+
+- For the basic structure.
+
+#### CSS3
+
+- For the styling of the content.
+
+#### JavaScript/JQuery
+
+- Click event to close the collapsible menu when clicked.
+
+#### [Bootstrap 4](https://getbootstrap.com/)
+
+- Was used for the grids, the responsive design and for design.
+
+#### [Google Fonts](https://fonts.google.com/)
+
+- To change the fonts of the website.
+
+#### [Font Awesome 4](https://fontawesome.com/v4.7.0/)
+
+- Where the icons are from.
+
+#### [GitPod](https://gitpod.io/)
+
+- One of the IDE used.
+
+#### [Visual Studio Code](https://code.visualstudio.com/)
+
+- The second IDE used.
+
+#### [GitHub](https://github.com/)
+
+- The storage for the website and for live site.
+
+#### Mozilla Firefox Developer Tools
+
+- For debugging the site.
+
+#### [Adobe Photoshop](https://www.adobe.com/Photoshop)
+
+- Used to custom the background picture in the About Me, My Skills and Any Questions area.
+
+## Testing
+
+HTML code passed on W3C's HTML validator.
+CSS code passed on W3C's CSS validator.
+
+The website has been tested on following units:
+
+- Apple MacBook Pro 2018 13 inch with MacOS Catalina with Google Chrome and Mozilla Firefox.
+- Different computers with Windows 10, Google Chrome and Firefox.
+- Samsung Galaxy A41s, Google Chrome and Samsungs internet browser.
+- Samsung Galaxy A20, Google Chrome and Samsungs internet browser.
+- Apple iPhone 7 and 8 with Google Chrome and Safari.
+
+## Deployment
+
+Live version of my website<br>
+<https://chris8one.github.io/MS1-my_portfolio/>
+
+The source code is stored at <https://github.com/Chris8one/MS1-my_portfolio> on [GitHub](https://github.com/).
+
+## Credits
+
+### Media
+
+- [Mateuz Dach](https://www.pexels.com/sv-se/@mateusz-dach-99805) for the first background.
+- [Dominika Roseclay](https://www.pexels.com/sv-se/@punchbrandstock) for the about section background.
+- [Jessica Lewis](https://www.pexels.com/sv-se/@thepaintedsquare) for the contact section background.
+- [Uncredited](htps://www.pexels.com) The background for the portfolio was unfortunely lost.
+- [Uncredited](https://www.google.com) The background for the skills section was unfortunely lost.
+
+All pictures has been edited by me.
+
+### Acknowledgements
+
+#### Devashish Prasad [Stack Overflow](https://stackoverflow.com/questions/26219670/how-can-i-change-color-of-bootstrap-progress-bar-with-custom-color)
+
+- For the code to change the color on bootstraps progress bar.
+
+#### Abdullah Khan Niazi [Stack Overflow](https://stackoverflow.com/questions/23140484/change-bootstrap-progress-bar-background-not-the-bar-but-the-bars-background)
+
+- For the code to change the background color on bootstraps progress bar.

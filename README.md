@@ -67,10 +67,6 @@ As an owner I want to:
 
 - For the styling of the content.
 
-#### JavaScript/JQuery
-
-- Click event to close the collapsible menu when clicked.
-
 #### [Bootstrap 4](https://getbootstrap.com/)
 
 - Was used for the grids, the responsive design and for design.

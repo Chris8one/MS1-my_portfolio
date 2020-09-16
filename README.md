@@ -112,6 +112,9 @@ The website has been tested on following units:
 - Samsung Galaxy A20, Google Chrome and Samsungs internet browser.
 - Apple iPhone 7 and 8 with Google Chrome and Safari.
 
+The scrolling for links on mobile view needs some more work done to it.
+It doesn't scrolls and stops where I want it to.
+
 ## Deployment
 
 Live version of my website<br>
